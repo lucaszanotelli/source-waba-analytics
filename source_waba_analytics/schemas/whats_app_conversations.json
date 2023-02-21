@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "start": {
+      "type": ["null", "integer"]
+    },
+    "end": {
+      "type": ["null", "integer"]
+    },
+    "conversation": {
+      "type": ["null", "integer"]
+    },
+    "phone_number": {
+      "type": ["null", "string"]
+    },
+    "country": {
+      "type": ["null", "string"]
+    },
+    "conversation_type": {
+      "type": ["null", "string"]
+    },
+    "conversation_direction": {
+      "type": ["null", "string"]
+    },
+    "cost": {
+      "type": ["null", "number"]
+    }
+  }
+}
